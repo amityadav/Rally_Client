@@ -1,0 +1,126 @@
+<?xml-stylesheet type="text/xsl" href="docs.xsl"?><javascript fileName="rally_class.js">
+    <function name="readLocalFile" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        <property name="f" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+        </property>
+        <property name="fs" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+        </property>
+        <property name="content" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+        </property>
+    </function>
+    <function name="doRequest" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        <property name="req" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            <function name="onreadystatechange" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                <property name="str" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+            </function>
+        </property>
+    </function>
+    <function name="openInBrowser" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+    </function>
+    <function name="doLoad" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        <property name="window" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            <property name="callMe" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </property>
+    </function>
+    <function name="Rally" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        <function name="API" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+            <object_literal name="prototype" scope="instance" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <object_literal name="itemState" scope="instance" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    <property name="New" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                    </property>
+                    <property name="Defined" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                    </property>
+                    <property name="In-Progress" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                    </property>
+                    <property name="Completed" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                    </property>
+                    <property name="Accepted" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                    </property>
+                </object_literal>
+                <function name="getUserProjectIterations" scope="instance" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                    <function name="getUserProjectIterationsHandler" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                        <property name="dataJSON" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                        <property name="dataObj" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                    </function>
+                    <property name="request" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        <property name="contentType" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                        </property>
+                    </property>
+                    <property name="loader" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                </function>
+                <function name="getUserProjects" scope="instance" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                    <function name="getUserProjectsHandler" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                        <property name="dataJSON" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                        <property name="dataObj" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                    </function>
+                    <property name="obj" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="request" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        <property name="contentType" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                        </property>
+                    </property>
+                    <property name="loader" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                </function>
+                <function name="sendUsersRequests" scope="instance" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                    <function name="completeHandler" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                        <property name="dataJSON" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                        <property name="dataObj" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                    </function>
+                    <property name="obj" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="request" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        <property name="contentType" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                        </property>
+                    </property>
+                    <property name="loader" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                </function>
+                <function name="getUserStoryDetails" scope="instance" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                    <function name="requestCompleteHandler" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                        <property name="dataJSON" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                        <property name="dataObj" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                    </function>
+                    <property name="request" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        <property name="contentType" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                        </property>
+                    </property>
+                    <property name="loader" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                </function>
+                <function name="getDefectDetails" scope="instance" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                    <function name="requestCompleteHandler" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+                        <property name="dataJSON" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                        <property name="dataObj" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        </property>
+                    </function>
+                    <property name="request" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                        <property name="contentType" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                        </property>
+                    </property>
+                    <property name="loader" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                </function>
+            </object_literal>
+        </function>
+    </function>
+    <property name="RallyAPI" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+    </property>
+    <property name="Exposed" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+        <function name="trace" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Function">
+        </function>
+        <property name="readLocalFile" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+        </property>
+    </property>
+</javascript>

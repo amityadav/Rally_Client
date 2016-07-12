@@ -1,0 +1,1 @@
+adt -package -storetype pkcs12 -keystore certs\amitCert.pfx rally-client-Amit.air rally-app.xml html\rally.html js\* images\* css\* icons\*

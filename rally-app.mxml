@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication name="WindowedApplication_titleIcon_test"
+        xmlns:mx="http://www.adobe.com/2006/mxml"
+        layout="vertical"
+        verticalAlign="middle"
+        titleIcon="@Embed('images/xf_restore_icon.gif')">
+</mx:WindowedApplication>
+

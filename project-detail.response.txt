@@ -1,0 +1,42 @@
+{"Project": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/project\/521772201.js", "_objectVersion": "1", "_refObjectName": "PTC University Class Search Tool", "CreationDate": "2009-08-06T11:18:21.000Z", "_CreatedAt": "Aug 6, 2009", "ObjectID": 521772201, "Subscription": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/subscription\/42206207.js", "_refObjectName": "PTC", "_type": "Subscription"}, 
+
+"Workspace": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/workspace\/42227202.js", "_refObjectName": "External Systems", "_type": "Workspace"}, 
+
+"BuildDefinitions": [{"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/builddefinition\/521772208.js", "_refObjectName": "Default Build Definition", "_type": "BuildDefinition"}], 
+
+"Children": [], 
+
+"Description": "", 
+
+"Iterations": [{"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/525874321.js", "_refObjectName": "Our first spint 1", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/605458178.js", "_refObjectName": "R2.1 - Release Iteration #1", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/605459235.js", "_refObjectName": "R2.1 - Release Iteration #2", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/605459675.js", "_refObjectName": "R2.1 - Release Iteration #3", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/865704407.js", "_refObjectName": "R2.2 - Iteration 1", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/935622107.js", "_refObjectName": "R2.2 - Iteration 3", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/935623109.js", "_refObjectName": "R2.2 - Iteration 4", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1010075539.js", "_refObjectName": "Class Search 1.0", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1010082390.js", "_refObjectName": "Class Search 2.0", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1025015632.js", "_refObjectName": "R2.2 - Iteration 5", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1133406901.js", "_refObjectName": "R2.2 - Release Sprint 1", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1232073390.js", "_refObjectName": "R2.2 - Release Sprint 2", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1232079092.js", "_refObjectName": "R2.2 - Release Sprint 3", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1424616110.js", "_refObjectName": "R2.3 - Iteration 2", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1665454132.js", "_refObjectName": "R2.3 - Release Sprint 1", "_type": "Iteration"}, {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1665456224.js", "_refObjectName": "R2.3 - Release Sprint 2", "_type": "Iteration"}], 
+
+"Name": "PTC University Class Search Tool", 
+
+"Notes": "", 
+
+"Owner": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/user\/42224966.js", "_refObjectName": "Michael Bourque", "_type": "User"}, 
+
+"Releases": [
+
+{"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/release\/525871756.js", "_refObjectName": "Class Search Phase 1", "_type": "Release"}, 
+
+{"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/release\/612000560.js", "_refObjectName": "Class Search Phase 2", "_type": "Release"}, 
+
+{"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/release\/822456727.js", "_refObjectName": "R2.2 - Connector", "_type": "Release"}], 
+
+"State": "Open", 
+
+"Users": [
+
+{"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/user\/56024135.js", "_refObjectName": "Rahul Deshmukh", "_type": "User"}, 
+
+{"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/user\/76442353.js", "_refObjectName": "Ryan Kershner", "_type": "User"}, 
+
+{"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/user\/248821154.js", "_refObjectName": "David Beckham", "_type": "User"}, 
+
+{"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/user\/983929275.js", "_refObjectName": "Amit Yadav", "_type": "User"}
+
+], 
+
+"Errors": [], 
+"Warnings": []}}

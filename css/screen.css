@@ -1,0 +1,1286 @@
+body	{
+    color: #444;
+    font-family: verdana, arial, sans-serif;
+    font-size: .8em;
+    margin: 0;
+    padding: 0 3em;}
+
+html>/**/body	{
+    overflow-y: scroll;}
+
+a, a:visited	{
+    color: #2e6e9e;
+    text-decoration: none;}
+
+a:hover	{
+    text-decoration: underline;}
+
+img	{
+    border: none;}
+
+p	{
+    margin: 0 0 1em;
+    padding: 0;
+    width: 100%;}
+
+p, dl, h1, h2, h3, h4, legend, ul	{
+    clear: both;
+    float: left;}
+
+#content	{
+    clear: both;
+    float: none;
+	margin: 0 auto;
+	padding: 0;
+    width: 98%;}
+
+h1, legend	{
+    color: #1d5987;
+    font-size: 1.4em !important;
+    font-weight: bold;
+    margin: 0;
+    padding: .8em 0 .5em 0;
+	width: 100% !important;}
+
+h2	{
+    color: #1d5987;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1em 0 1em 0;}
+
+h4	{
+    font-size: 1em;
+    margin: 0 0 .7em;
+    padding: 0;}
+	
+h6	{
+	clear: both;
+	color: #555;
+	float: left;
+    font-size: .85em;
+    margin: 0 0 .7em;
+    padding: 0;
+	width: 100%;}
+
+dl	{
+    margin: .5em 0 0;
+    padding: 0;}
+
+dl dt	{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 .5em;
+    padding: 0;}
+
+dl dd	{
+    font-size: 1em;
+    margin: 0 0 .5em;
+    padding: 0 0 0 1em;}
+	
+address	{
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;}
+
+/* Tables */
+
+table	{
+    border-bottom: 1px dashed #ddd;
+	clear: both;
+	float: left;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;}
+
+table th	{
+    background: #6ea7d1;
+    color: #fff;
+    font-size: 1em;
+    padding: .4em;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;}
+
+table td	{
+    font-size: 1em;
+    padding: .3em}
+
+table tr.altRow	{
+    background: #e0ebf2;}
+
+table .warnLow	{
+    background: #f3f0a0 !important;}
+
+table .warnHigh	{
+    background: #f3a0a0 !important;}
+
+table th a, table th a:visited  {
+    color: #fff;}
+
+td.actions  {
+    padding-top: 1em;
+    text-align: center;}
+
+table thead tr th a.asc {
+    background: url(../img/sort_asc.gif) no-repeat right center;
+    padding-right: 16px;}
+
+table thead tr th a.desc {
+    background: url(../img/sort_desc.gif) no-repeat right center;
+    padding-right: 16px;}
+
+td.noRecords p    {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 2em 0;
+    padding: 0;
+    text-align: center;}
+
+div.tableInformation    {
+    clear: both;
+    float: left;
+    margin: 0 0 10px;
+    padding: 0 0 0 .5em;
+    width: 99%;}
+
+div.tableInformation p  {
+    clear: none;
+    color: #777;
+    font-weight: bold;
+    font-size: .85em;
+    margin: 0;
+    padding: 0;}
+
+p.recordsFound    {
+    float: left;
+    width: 25%;}
+
+    /* Pagination */
+
+p.paginationWrap    {
+    clear: both;
+    color: #ccc !important;
+    float: left;
+    text-align: center;
+    width: 50%;}
+
+p.paginationWrap a  {
+    color: #488abc;}
+
+p.paginationWrap span.current    {
+    color: #444;}
+
+p.paginationWrap span.pagControls a {
+    font-weight: normal;}
+
+.disabled   {
+    clear: both;
+    display: none;
+    float: left;
+    width: 100px;}
+
+    /* End Pagination */
+
+p.pageNumber    {
+    float: right;
+    text-align: right;
+    width: 24%;}
+
+/* End Tables */
+
+
+/* Table Colums */
+
+span.current {
+    font-weight: bold;}
+
+    /* Search */
+
+.fullName   {
+    width: 23%;}
+
+.emailAddress   {
+    width: 26%;}
+
+.response   {
+    width: 23%;}
+
+.companyName    {
+    width: 33%;}
+
+.ldapid    {
+	text-align: center;
+    width: 7%;}
+
+.actionColumn   {
+    width: 5%;}
+
+.tableControls  {
+    clear: both;
+    float: left;
+    margin: 0;
+    width: 100%;}
+
+.csvDownload    {
+    background: url(../img/download-csv.png) 20px 0 no-repeat;
+    float: right;
+    font-size: .85em;
+    margin: 20px 0 0;
+    padding: 2px 10px 1px 22px;
+    text-align: right;
+    width: 117px;}
+
+.resultsPerPage {
+    float: left;
+    font-size: .85em;
+    margin: 20px 0 0;
+    padding: 0 0 0 10px;
+    width: 80%;}
+
+.resultsPerPage a, .resultsPerPage em   {
+    border-right: 2px solid #ddd;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 5px 0 0;}
+
+.resultsPerPage em  {
+    color: #444;
+    font-style: normal;}
+
+    /* eLearning Libraries */
+
+.libraryTitle   {
+    }
+
+.licenseType    {
+    width: 12em;}
+
+.libraryExp {
+    width: 12em;}
+
+.supportExp {
+    width: 12em;}
+
+    /* eLearning & Assessments */
+
+.courseTitle {
+    }
+
+.assignedBy {
+    width: 12em;}
+
+.assignmentDate {
+    width: 12em;}
+
+.completionStatus {
+    width: 12em;}
+
+.completionDate {
+    width: 12em;}
+
+.assessmentScore {
+    width: 7em;}
+
+    /* ILT */
+
+.classNumber {
+    width: 8em;}
+
+.courseNumber {
+    width: 8em;}
+
+.iltCourseTitle {
+    }
+
+.classStart {
+    width: 8em;}
+
+.classEnd {
+    width: 8em;}
+
+.classFacility {
+    width: 12em;}
+
+.classInstructor {
+    }
+
+.classUpdatedAt {
+	text-align: center;
+    width: 10%;}
+
+.searchActions {
+    width: 6%;}
+
+.regStatus {
+    width: 9em;}
+
+.feedback-green {
+    width: 9em;
+	background-color: #BBF3A0;
+}
+
+
+.feedback-red {
+    width: 9em;
+	/*background:transparent url(../img/exclamation.jpg) no-repeat right; Is the red background good enough an indicator? */
+	background-color: #F3A0A0;
+}
+
+
+.feedback-yellow {
+    width: 9em;
+	background-color: #F3F0A0;
+}
+
+
+/* CARDS Support Calls */
+.callNumer {
+    width: 5em;}
+
+.creationDate {
+    width: 8em;}
+
+.callDescrpt {
+    }
+
+.productVersion {
+    width: 10em;}
+
+.callStatus {
+    width: 5em;}
+
+.activityDate {
+    width: 8em;}
+
+.sprChangeMe {
+    width: 10em;}
+
+    /* Text Justify */
+
+.fullName, .emailAddress, .companyName, .libraryTitle, .courseTitle, .iltCourseTitle, .classFacility, .callDescrpt  {
+    text-align: left;}
+
+.licenseType, .libraryExp, .supportExp, .assignedBy, .assignmentDate, .completionStatus, .completionDate, .assessmentScore, .classInstructor, .classNumber, .courseNumber, .classStart, .classEnd, .regStatus, .callNumer, .creationDate, .productVersion, .callStatus, .activityDate, .sprChangeMe, .feedback-green, .feedback-red, .feedback-yellow {
+    text-align: center;}
+
+/* End Pagination */
+
+/* Form Standards */
+
+form {
+    margin: 0;
+    padding: 0;}
+
+fieldset	{
+    border: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;}
+
+* html legend /* IE 6 Bug */	{
+    margin-left: -7px;}
+
+*:first-child+html legend /* IE 7 Bug */	{
+    margin-left: -7px;}
+
+fieldset ol, fieldset ul	{
+    clear: both;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+fieldset li	{
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0 0 12px;
+    width: 118%;}
+
+fieldset ol li ol	{
+    padding: 15px 0 0 25px;}
+
+fieldset li input, fieldset li select, fieldset li textarea, fieldset li label	{
+    float: left;
+    margin: 0;
+    padding: 0;}
+
+* html fieldset li textarea /* IE 6 Bug, matches set width of input tag */	{
+    padding-right: 2px;}
+
+fieldset li label	{
+    color: #444;
+    cursor: pointer;
+    font-weight: bold;
+    padding-right: 1em;
+    width: 7em;}
+
+.radioOrCheck input	{
+    margin-top: 1px;
+    margin-right: 5px;}
+
+.radioOrCheck p	{
+    padding-left: 18px !important;}
+
+* html .radioOrCheck p /* IE 6 Bug */	{
+    padding-left: 25px !important;}
+
+*:first-child+html .radioOrCheck p /* IE 7 Bug */	{
+    padding-left: 25px !important;}
+
+* html .radioOrCheck label /* IE 6 Bug */	{
+    margin-top: 4px;}
+
+*:first-child+html .radioOrCheck label /* IE 7 Bug */	{
+    margin-top: 3px;}
+
+fieldset .labelOnTop label	{
+    display: block;
+    float: none;
+    margin-bottom: 7px;}
+
+.error-message	{
+    border: none;
+    color: #dc8d4d;
+    float: left;}
+
+/* End Form Standards */
+
+/* Login */
+
+form#UserLoginForm fieldset	{
+    float: none;
+    margin: 1.5em auto 0;
+    width: 40em;}
+
+form#UserLoginForm fieldset ol	{
+    clear: both !important;
+    width: 40em;}
+
+#UserLoginForm div  {
+    border: none;}
+
+form#UserLoginForm input	{
+    width: 12.1em;}
+
+div.loginOptions	{
+    clear: both !important;
+    display: block;
+    float: left;
+    text-align: right;
+    width: 21em;}
+
+form#UserLoginForm div.error-message	{
+    padding: .1em 0 0 .4em;
+    width: 17em;}
+
+.hi {
+    display: block;
+    float: left;
+    margin-top: 7px;}
+
+div.loginOptions input	{
+    float: right;}
+
+/* End Login */
+
+/* Generic Error Message */
+
+#flashMessage, #authMessage {
+    border: 1px dashed #dc8d4d;
+    background-color: #e4f1fc;
+    color: #1d5987;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    width: 40em;}
+
+/* End Generic Error Message */
+
+/* Tabs */
+
+    /* Tab Navigation */
+
+ul#innerTabs	{
+    list-style-type: none;
+    margin: 1.5em 0 0;
+    padding: 0;
+    width: 100%;}
+
+ul#innerTabs li	{
+    float: left;
+    margin: 0;
+    padding: .5em .3em .5em 0;}
+
+ul#innerTabs li a	{
+    background-color: #e0ebf2;
+    font-weight: bold;
+    padding: .5em .7em;
+    -moz-border-radius-topleft: .3em;
+    -moz-border-radius-topright: .3em;
+    -webkit-border-radius-topleft: .3em;
+    -webkit-border-radius-topright: .3em;}
+
+ul#innerTabs li a:hover	{
+    text-decoration: underline;}
+
+ul#innerTabs li.tabActive a	{
+    background-color: #6ea7d1;
+    color: #fff;
+    cursor: default;}
+
+ul#innerTabs li.tabActive a:hover	{
+    text-decoration: none;}
+
+    /* End Tab Navigation */
+
+#tabContent	{
+    border-bottom: 2px solid #6ea7d1;
+    border-top: 2px solid #6ea7d1;
+    clear: both;
+    float: left;
+    margin: 0 0 1em;
+    padding: 0 0 1em;
+    width: 100%;}
+	
+* html #tabContent	{
+	float: none;}
+
+/* End Tabs */
+
+/* Help Text */
+
+    /* Heading Row */
+
+.headingRow	{
+    clear: both;
+	float: left;
+	margin: 0;
+	padding: 0;
+    width: 100%}
+
+.headingRow h2	{
+    clear: none;
+	float: left;
+	margin: 1em 0 0;
+	padding: 0;}
+
+.headingRow a	{
+    clear: none;
+    float: right;
+	display: block;
+    padding-right: .3em;
+    margin-top: 1.3em;}
+
+    /* End Heading Row */
+
+#helpText	{
+    color: #666;
+    display: none;
+    float: left;
+    margin: 0;
+    padding: 0 0 1em 2em;
+    width: 90%;}
+
+#helpText p	{
+    font-size: .87em;
+    padding-left: 1em;}
+
+/* End Help Text */
+
+/* ldap_userdetail */
+
+#srm_students fieldset   {
+    padding-left: .2em;}
+
+#srm_students fieldset legend	{
+    padding-left: 0;}
+
+/*#srm_students fieldset ol	{*/
+#srm_students.ol	{
+    width: 42em;}
+
+#srm_students fieldset ol li	{
+    padding-bottom: .5em;}
+
+#srm_students fieldset ol li label	{
+    font-weight: normal;
+    padding-top: .3em;
+    width: 28em;}
+
+#srm_students fieldset ol li.radioOrCheck label	{
+    font-weight: normal;
+    padding-top: 0;}
+
+#srm_students fieldset ol li  input#SrmStudentsSearchKeywords	{
+    float: left;
+    margin-right: .1em;
+    padding: .1em;
+    width: 26em;}
+
+#srm_students fieldset ol li p.searchTips	{
+    font-size: .7em;
+    font-style: italic;
+    margin: 0;
+    padding: .5em 0 0 18.7em;
+    width: 40em;}
+
+
+
+
+#srm_students_searches fieldset   {
+    padding-left: .2em;}
+
+#srm_students_searches legend	{
+    padding-left: 0;}
+
+/*#srm_students fieldset ol	{*/
+#srm_students_searches.ol	{
+    width: 42em;}
+
+#srm_students_searches fieldset ol li	{
+    padding-bottom: .5em;}
+
+#srm_students_searches ol li label	{
+    font-weight: normal;
+    padding-top: .3em;
+    width: 28em;}
+
+#srm_students_searches ol li.radioOrCheck label	{
+    font-weight: normal;
+    padding-top: 0;}
+
+#srm_students_searches fieldset ol li  input#SrmStudentsSearchKeywords	{
+    /*float: left;
+    margin-right: .1em;
+    padding: .1em;
+    width: 26em;
+	height: 20px;*/
+	
+	-moz-border-radius:6px 0 0 6px;
+	-moz-box-shadow:0 0 2px;
+	border-color:#6EA7D1 -moz-use-text-color #6EA7D1 #6EA7D1;
+	border-style:solid none solid solid;
+	border-width:2px 0 2px 2px;
+	float:left;
+	height:18px;
+	margin-right:-2px;
+	margin-top:6.5px;
+	padding:0.1em 0 0.1em 0.1em;
+	width:26em;
+}
+
+#srm_students_searches fieldset ol li p.searchTips	{
+    font-size: .7em;
+    font-style: italic;
+    margin: 0;
+    padding: .5em 0 0 18.7em;
+    width: 40em;}
+
+/* End ldap_userdetail */
+
+/* Customer Profile Info */
+
+.studentName    {
+    clear: both;
+    float: left;
+    padding-bottom: .2em;
+    width: 100%;}
+
+.studentShortInfo   {
+    clear: both;
+    float: left;
+    margin: 0 0 1em;
+    width: 100%;}
+
+#customerInfo, .mainContactInfo, .Wrap, .mergedInfo, .mergedInfoWrap {
+    clear: both;
+    float: left;
+    margin: 0 0 1em;
+    padding: 0;
+    width: 100%;}
+
+.mergedInfo {
+    border-top: 1px solid #ddd;
+    margin: 0 0 1em;
+    padding: 1em 0;}
+
+#customerInfo   {
+    margin: 0em 0 0;}
+
+.mergedInfoWrap {
+    margin-bottom: 0;}
+
+.customerMain, .customerSite, .supplementalInfo {
+    float: left;
+    padding: 0 1em;
+    width: 25%;}
+
+.supplementalInfo {
+     width: 40%;}
+
+#customerInfo h5    {
+    color: #666;
+    font-size: .8em;
+    margin: 0 0 .5em;
+    padding: 0;}
+
+#customerInfo h5 span    {
+    color: #444;
+    font-size: 1.2em;
+    padding-right: .3em;
+    text-decoration: underline;}
+
+#customerInfo ul    {
+    clear: both;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;}
+
+#customerInfo li    {
+    border-bottom: 1px dashed #ddd;
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: .5em 0;
+    width: 100%;}
+
+#customerInfo h6, #customerInfo p   {
+    clear: none;
+    float: left;
+    font-size: .9em;
+    margin: 0;
+    padding: 0;}
+
+#customerInfo h6    {
+    color: #555;
+    padding-right: .3em;
+    width: 35%;}
+
+#customerInfo p   {
+    width: 60%;}
+
+.supplementalInfo h6    {
+    width: 50% !important;}
+
+.supplementalInfo p   {
+    width: 45% !important;}
+
+.activeInfo {
+    color: #6ed173;}
+
+.inactiveInfo {
+    color: #d16e6e !important;
+	font-size: 1em !important;}
+
+.showHideInfo   {
+    clear: both;
+    float: left;
+    font-size: .9em;
+    margin: 0 0 .8em;
+    width: 100%;}
+
+.sortDESC a {
+    background: url(../img/sort-desc.gif) no-repeat right;
+    padding-right: 20px;}
+
+.sortASC a {
+    background: url(../img/sort-asc.gif) no-repeat right;
+    padding-right: 20px;}
+
+.updatedDate    {
+    display: block;
+    color: #444;
+    font-size: .8em;
+    padding-top: .2em;}
+
+/* End Customer Profile Info */
+
+/* Debug Statements */
+
+table.cake-sql-log {
+    clear: both;
+    float: left;
+    display: none;}
+
+.toggle-cake-sql-log {
+    clear: both;}
+
+/* End Debug Statements */
+
+/* Forms */
+
+form    {
+    color: #555;
+    clear: both;
+    float: none;
+    margin: 0 0 21px;
+    width: 100%;}
+
+form fieldset   {
+    clear: both;
+    float: none;
+    width: 600px;}
+
+form div {
+    border-bottom: 1px dashed #ddd;
+    float: none;
+    clear: both;
+    margin: 0;
+    padding: .4em 0;
+    width: 100%;}
+
+#CompanyAddForm div, #WishlistAddForm div {
+    padding: .7em 0;}
+
+* html form div {
+    float: none;}
+
+form label  {
+    color: #444;
+    float: left;
+    font-weight: bold;
+    padding: 0;
+    width: 200px;}
+
+#CompanyAddForm label, #WishlistAddForm label   {
+    padding: .2em 0 0;}
+
+form input, form select, form textarea, /*form span*/  {
+    float: right;
+    width: 350px;}
+
+form input, form select, form textarea  {
+    border: 1px solid #bcbcbc;
+    padding: 2px;}
+
+form select {
+    padding: 1px 1px 1px 3px;
+    width: 356px;}
+
+form span  {
+    display: block;}
+
+form button {
+    background: none;
+    border: none;
+    float: right;}
+
+form button img {
+    height: 20px;
+    width: 20px;}
+
+form .submit, form .loginOptions, #SrmStudentSearchForm div, #SrmStudentsSearchSearchForm div    {
+    border: none;}
+
+form .submit input  {
+    width: auto;}
+
+.calendar   {
+    width: 200px;}
+
+.inResults  {
+    display: block;
+    float: left;
+    width: 20em;}
+
+.inResults input  {
+    background: none !important;
+    border: none;
+    display: block !important;
+    float: left !important;
+    margin: 0 0 0 !important;
+    padding: 0 !important;}
+
+.inResults label  {
+    display: block !important;
+    float: left !important;
+    padding: 0 0 0 5px !important;
+    width: 15em !important;}
+
+/* button */
+
+a.button, a.button:visited {
+    background: #2d6895 url(../img/add-button.png) 0px -3px no-repeat;
+    border: 1px solid #6ea7d1;
+    clear: both;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 14px 0 0 5px;
+    padding: 4px 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;}
+
+a.button:hover {
+    background: #2d6895 url(../img/add-hover-button.png) 0px -3px no-repeat;
+    color: #fff;
+    text-decoration: none;}
+
+a.button span {
+    padding: 0 8px 0 26px;}
+	
+	/* Buttons */
+	
+.lhButton	{
+	background: #2c6795 url(../../../images/buttons/button.gif) 0 0 repeat-x;
+	border: 1px solid #6ea7d1;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-family: verdana, arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0 0 .2em;
+	padding: .2em .7em;
+	text-decoration: none;
+	width: auto !important;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;}
+	
+.lhButton:hover	{
+	background: #2c6795 url(../../../images/buttons/button-hover.gif) 0 0 repeat-x;
+	text-decoration: none;}
+	
+.buttonArrow	{
+	background: #2c6795 url(../../../images/buttons/button-arrow.gif) right 0 no-repeat;
+	padding-right: 2.3em;}
+	
+.buttonArrow:hover	{
+	background: #2c6795 url(../../../images/buttons/button-hover-arrow.gif) right 0 no-repeat;}
+
+
+/* LightBox */
+
+#lightBox   {
+    clear: both;
+    float: left;
+    margin: .5em 0;
+    padding: 0;
+	width: 100%;}
+
+#lightBox h2   {
+    margin: 0 0 1em;
+    padding: 0;
+    width: 100%;}
+
+#lightBox h3   {
+    font-size: 1em;
+    margin: .5em 0 0;
+    padding: 0;
+    width: 100%;}
+
+/* Feedback */
+
+.feedbackOverview   {
+    clear: both;
+    color: #555;
+    background: #f1efef;
+    border: 1px solid #ddd;
+	display: block;
+    float: left;
+    font-size: .85em;
+	list-style-type: none;
+    margin: 0 0 1.5em;
+    padding: .7em 0;
+    width: 100% !important;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;}
+	
+.feedbackOverview li   {
+	float: left;
+	margin: 0;
+    padding: 0 0 0 .9em;
+	width: 31%;}
+	
+.feedbackOverview ul   {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;}
+	
+.feedbackOverview ul li {
+	float: none;
+	margin: 0;
+    padding: .4em 0 0;
+	width: 100%;}
+	
+.feedbackRating	{
+    font-weight: bold;}
+
+.feedbackRating img   {
+    vertical-align: bottom;
+    padding: 0 0 0 .3em;}
+
+.questionText    {
+    width: 65%;}
+
+.questionText p {
+    margin-bottom: .5em;
+    padding-top: .5em;}
+
+
+/* Wishlist */
+
+.wishlists div, #CompanyAddForm div, #WishlistAddForm div  {
+    float: left;}
+
+.dataGrid	{
+	border-bottom: none;}
+
+
+/*Added by Amit*/
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.clearer{
+	clear: both;
+}
+
+
+.bold{
+	font-weight: bold;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+
+.green{
+	color: #0F870F;
+}
+
+.red{
+	color: #FF0909;
+}
+
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+.logout{
+	float: right;
+	margin: 0;
+	padding: 0 .5em 0 0;
+	text-align: right;
+	width: 50%;}
+
+
+
+
+.responsePopup   {
+    width: 28%;
+	text-align: left;
+}
+
+
+/* Notes */
+
+#openNote	{
+	float: right;
+	margin: 1em 0 0;
+	padding: .3em .7em;}
+	
+.notesList, .notesList ul, .notesList li, .notesList form, .notesList h2, .notesList p, .notesList textarea, .notesList pre	{
+	clear: both;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;}
+	
+.notesList	{
+	margin: 1em 0;}
+	
+#add_edit_note	{
+	margin: 0;}
+	
+.notesList.form.span	{
+	display: inline;}
+	
+.notesList h3	{
+	color: #444;
+	font-size: .9em;
+	margin: 0 0 .8em;}
+	
+.notesList h3 span	{
+	padding-right: 1em;}
+	
+.notesList.li	{
+	border: 1px solid #fff;
+	border-bottom: 1px solid #e2e2e2;
+	margin: .2em;
+	padding: .7em 1em;
+	width: 97%;}
+	
+.selectedRow	{
+    background: #ecf3f8;
+	border: 1px solid #d6e7f3 !important;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;}
+	
+.notesList p, .notesList pre	{
+	display: block;
+	margin: 0 0 .5em;}
+	
+.notesList pre	{
+	font-family: verdana, arial, sans-serif;
+	font-size: 1.1em;
+	white-space: pre-wrap;}
+	
+.note_description	{
+	cursor: pointer;}
+	
+.notesList textarea	{
+	border: none;
+	display: block;}
+	
+.notesList form button, .notesList form input	{
+	background: none;
+	color: #555;
+	cursor: pointer;
+	display: block;
+	float: right;
+	font-weight: bold;
+	margin: 0;
+	padding: .5em 0 0 .2em;
+	width: auto;}
+	
+.noteFunctions	{
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;}
+	
+.delete_notes	{
+	clear: both;
+	color: #2e6e9e;
+	cursor: pointer;
+	display: block;
+	text-align: right;
+	width: 100%;}
+	
+.delete_notes span	{
+	float: right;}
+	
+/* Merge Records */
+
+.masterRecord	{
+	text-align: center;}
+	
+.masterRecord input	{
+	border: none;
+	width: 17px;}
+	
+.childRow	{
+	color: #666;
+	font-size: .85em;}
+	
+.childRecord	{
+	padding-left: 1.3em;}
+
+
+
+
+/*.notes_image{
+	width: 5%;
+}
+
+
+
+.add_notes_section{
+	margin-top:13px;
+}
+
+
+
+.jqNotes,.add_note{
+    border: 1px solid #fff;
+    border-bottom: 1px solid #eee;
+    clear: both;
+    float: left;
+    margin: 1em 0 0;
+    padding: 1em;
+    width: 100%;
+}
+
+.jqNotes a:hover	{
+    text-decoration: none;
+}
+
+.jqRatingBad{
+	width: 9em;
+	background:transparent url(../img/exclamation.jpg) no-repeat right;
+}
+
+#tinyMCEDiv div  {
+    border: 0px;
+}
+
+#tinyMCEDiv span  {
+    display: inline;
+}
+
+#tinyMCEDiv textarea  {
+    width: 80%;
+}
+
+.note_description{
+	cursor: pointer;
+}
+
+.jqNotesNoWright{
+	cursor: default;
+}
+
+
+.note_description button{
+	background: #6ea7d1;
+    color: #fff;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 0 3px;
+    padding: 3px 7px;
+    width: auto;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.childRecord{
+	padding-left: 20px;
+}
+
+.childRow{
+	background-color: #EDF0D5;
+}
+
+
+
+#jqNotesContainer .ui-selecting { background: #ECF3F8; }
+#jqNotesContainer .ui-selected { background: #ECF3F8;}*/

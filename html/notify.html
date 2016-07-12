@@ -1,0 +1,63 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Notify</title>
+
+<!-- Use some styles for basic positioning -->
+<!-- No cross-browser worries, FTW! -->
+<style type="text/css">
+#border {
+	position: absolute;	
+}
+
+#message {
+	position: absolute;
+	left: 0px;
+	top: 4px;
+	text-align: center;
+}
+</style>
+
+<!-- Include aliases to AIR APIs and jQuery for manipulation -->
+<script src="../js/AIRAliases.js" type="text/javascript"></script>
+<script src="../js/jquery-1.4.1.min.js" type="text/javascript"></script>
+
+<!-- Main script block (logic) -->
+<script type="text/javascript">
+// Constants for timer to close the window
+var DELAY = 4000;
+var REPEAT = 1;
+
+// A timer to keep track of how long the window has been open
+var timer = null;
+
+// Called when the document is ready
+$( document ).ready( function() {
+	
+	// Create a timer instance and listen for completion
+	timer = new air.Timer( DELAY, REPEAT );
+	timer.addEventListener( air.TimerEvent.TIMER_COMPLETE, doTimerComplete );
+	
+	// Start the timer
+	timer.start();
+	
+} );
+
+// Called when the timer has completely elapsed
+// Closes this window (the notification window)
+function doTimerComplete( evt )
+{
+	nativeWindow.close();
+}
+</script>
+
+</head>
+<body>
+
+<!-- Use a PNG with transparency to show off custom chrome -->
+<!-- Tell the user why this window is here -->
+<img id="border" src="../images/border.png" width="200" height="50" />
+<div id="message">Something just happened.</div>
+
+</body>
+</html>

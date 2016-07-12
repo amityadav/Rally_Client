@@ -1,0 +1,71 @@
+{"HierarchicalRequirement": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/hierarchicalrequirement\/1120675484.js", "_objectVersion": "15", "_refObjectName": "Remove relevance of Saba registration status and order status descriptions - use codes only", "CreationDate": "2010-02-11T16:24:47.000Z", "_CreatedAt": "Feb 11", "ObjectID": 1120675484, 
+
+"Subscription": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/subscription\/42206207.js", "_refObjectName": "PTC", "_type": "Subscription"}, 
+
+"Workspace": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/workspace\/175767940.js", "_refObjectName": "Internal Systems", "_type": "Workspace"}, 
+
+"Description": "Our data warehouse will have data from both Saba 3.4 and Saba 5.5, and the English descriptions of the numeric codes from these systems are different.&nbsp; The numeric codes should be consistent, though.&nbsp; I think we need to change the application and database so that we discard these English descriptions and look only at the codes themselves.   <div><br \/><\/div>  <div><br \/><\/div>  <div><br \/><\/div>  <div>  <div>**Table showing SRM STATUS based on the codes<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>--------------------------------------------------------------------------------|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>SABA REG STATUS<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>SABA ORDER STATUS<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>SRM STATUS<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>--------------------------------------------------------------------------------|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>504<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>502<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>600<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>600<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>600<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>300<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>600<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>100<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>600<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>105<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>601<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>600<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>601<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>100<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>301<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>100<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>601<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>301 <span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>301<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>301<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Cancelled<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>300<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>300<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Confirmed<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>300<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>100<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Confirmed<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>100<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>100<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Confirmed<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>100<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>105<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Pending Payment<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>101<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>100<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Wait List<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>101<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>105<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>Wait List<span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>|<\/div>  <div><span class=\"Apple-tab-span\" style=\"white-space: pre;\"> <\/span>---------------------------------------------------------------------------------<\/div>  <div><br \/><\/div>  <div>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<\/div>  <\/div>", 
+
+"Discussion": [], 
+
+"FormattedID": "S480", 
+
+"LastUpdateDate": 
+
+"2010-06-17T12:23:24.635Z", 
+
+"Name": "Remove relevance of Saba registration status and order status descriptions - use codes only", 
+
+"Notes": "&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;", 
+
+"Owner": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/user\/983929275.js", "_refObjectName": "Amit Yadav", "_type": "User"}, 
+
+"Project": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/project\/248819434.js", "_refObjectName": "Lighthouse", "_type": "Project"}, 
+
+"RevisionHistory": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/revisionhistory\/1120675485.js", "_type": "RevisionHistory"}, 
+
+"Tags": [], 
+
+"Attachments": [], 
+
+"Package": null, 
+
+"AcceptedDate": "2010-06-17T12:23:24.618Z", 
+
+"Blocked": false,
+
+"Blocker": null, 
+
+"Children": [], 
+
+"Defects": [], 
+
+"Iteration": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/iteration\/1417783083.js", "_refObjectName": "Lighthouse R2.0 (PATCHING)", "_type": "Iteration"}, 
+
+"Parent": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/hierarchicalrequirement\/328921675.js", "_refObjectName": "EPIC: STUDENT PROFILE", "_type": "HierarchicalRequirement"}, 
+
+"PlanEstimate": 2.0, 
+
+"Predecessors": [], 
+
+"Rank": 406.58, 
+
+"Release": {"_rallyAPIMajor": "1", "_rallyAPIMinor": "18", "_ref": "https:\/\/rally1.rallydev.com\/slm\/webservice\/1.18\/release\/325550858.js", "_refObjectName": "Lighthouse R2.0", "_type": "Release"}, 
+
+"ScheduleState": "Accepted", 
+
+"Successors": [], 
+
+"TaskActualTotal": 0.0, 
+
+"TaskEstimateTotal": 0.0, 
+
+"TaskRemainingTotal": 0.0, 
+
+"Tasks": [], 
+
+"TestCases": [], 
+
+"Errors": [], 
+
+"Warnings": []}}
